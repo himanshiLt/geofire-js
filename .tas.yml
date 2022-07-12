@@ -19,4 +19,4 @@ postMerge :
           - "./test/*.test.ts"
         framework : mocha
         configFile : "./test/mocha.opts"
-version : 2.0.1
+version : 2.0.2
