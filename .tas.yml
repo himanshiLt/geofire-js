@@ -6,7 +6,6 @@ postMerge :
       - npm run bootstrap
       - npm run lint
   subModules:
-        
       - name: geofire-common      
         path : "./packages/geofire-common/"
         pattern: 
@@ -19,6 +18,5 @@ postMerge :
         pattern: 
           - "./test/*.test.ts"
         framework : mocha
-        configFile : "./test/mocha.opts"  
-  
+        configFile : "./test/mocha.opts"
 version : 2.0.1
